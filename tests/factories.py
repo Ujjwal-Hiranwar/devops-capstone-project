@@ -20,4 +20,4 @@ class AccountFactory(factory.Factory):
     email = factory.Faker("email")
     address = factory.Faker("address")
     phone_number = factory.Faker("phone_number")
-    date_joined = FuzzyDate(date(2008, 1, 1))
+    date_joined = FuzzyDate(date(2008, 1, 1)) 
